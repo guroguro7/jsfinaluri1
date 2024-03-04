@@ -102,7 +102,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0)
     ),
-    url("/header.png");
+    url("/download.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@ nav {
 }
 
 .banner__card:nth-child(1) {
-  background-image: url("/logo.png");
+  background-image:url(/banner-1.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
