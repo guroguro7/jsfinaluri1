@@ -102,7 +102,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0)
     ),
-    url("/images/fotos/header.jpg");
+    url("/header.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,14 +212,14 @@ nav {
 }
 
 .banner__card:nth-child(1) {
-  background-image: url("/images/fotos/banner-1.jpg");
+  background-image: url("/banner-1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .banner__card:nth-child(3) {
-  background-image: url("/images/fotos/banner-2.jpg");
+  background-image: url("/banner-2.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -288,7 +288,7 @@ nav {
   top: 0;
   left: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/images/fotos/feature-bg.jpg");
+    url("/feature-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
