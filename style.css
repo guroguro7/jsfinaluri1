@@ -102,7 +102,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0)
     ),
-    url("./download.png");
+    url("./header.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
