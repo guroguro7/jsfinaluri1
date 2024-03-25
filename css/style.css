@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:wght@400;500&display=swap");
-
 :root {
   --primary-color: #161616;
   --text-dark: #000000;
@@ -102,7 +101,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0)
     ),
-    url("./header.png");
+    url("/images/header.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,6 +134,7 @@ nav {
   font-size: 1.5rem;
   color: var(--white);
   cursor: pointer;
+  margin-right: 10%;
 }
 
 .nav__links {
@@ -219,7 +219,7 @@ nav {
 }
 
 .banner__card:nth-child(3) {
-  background-image: url("./banner-2.png");
+  background-image: url("./images/banner-2.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -288,7 +288,7 @@ nav {
   top: 0;
   left: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("./feature-bg.png");
+    url("./images/feature\ \(1\).png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,4 +1,10 @@
-fetch('url')
+function myFunction() {
+  "use strict";
+  
+
+}
+
+fetch()
   .then(response => {
     return response.json(); 
   })
@@ -6,7 +12,7 @@ fetch('url')
     console.log(data); 
   })
   .catch(error => {
-    console.error('Error:', error);
+    console.error('Error');
   });
 
 const menuBtn = document.getElementById("menu-btn");
