@@ -3,17 +3,26 @@ function myFunction() {
   
 
 }
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
 
-fetch()
-  .then(response => {
-    return response.json(); 
-  })
+    console.log(this.responseText);
+  }
+};
+xhttp.open("GET", "/data.json", true);
+xhttp.send();
+
+
+fetch('/data.json')
+  .then(response => response.text())
   .then(data => {
-    console.log(data); 
+    console.log(data);
   })
   .catch(error => {
-    console.error('Error');
+    console.error('Error:', error);
   });
+
 
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");

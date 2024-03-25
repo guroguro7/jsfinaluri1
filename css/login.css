@@ -1,17 +1,68 @@
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+form .form-control.error input,
+form .form-control.error textarea {
+  border-color: #f44336;
+}
+
+form .form-control.error small {
+  visibility: visible;
+  color: #f44336;
+  font-size: 14px;
+}
+
+form .form-control.success input,
+form .form-control.success textarea {
+  border-color: #4CAF50;
+}
+
+form .form-control.success small {
+  visibility: hidden;
+  color: #4CAF50;
+  font-size: 14px;
+}
+
 .login {
-  margin: 40px;
-  line-height: 30px;
-  letter-spacing: 2px;
-  margin-top: -220px;
-  padding-left: 12%;
-  
+  padding-right: 60%;
+  margin-top: -20%;
 }
 
-.login p {
-  color: blue;
+.login label {
+  color: #4CAF50;
 }
-
-input.submit {
-  color: green;
-}
-
