@@ -1,3 +1,14 @@
+fetch('url')
+  .then(response => {
+    return response.json(); 
+  })
+  .then(data => {
+    console.log(data); 
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
@@ -94,6 +105,7 @@ document.querySelector('#password').addEventListener('focus', function(e) {
     }
   });
 });
+
 document.querySelector('#submit').addEventListener('focus', function(e) {
   if (current) current.pause();
   current = anime({
@@ -110,3 +122,13 @@ document.querySelector('#submit').addEventListener('focus', function(e) {
     }
   });
 });
+
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
